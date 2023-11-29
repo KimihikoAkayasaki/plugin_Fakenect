@@ -1,5 +1,5 @@
 <h1 dir=auto>
-<b>Kinect One (V2)</b>
+<b>Kinect One (Fake)</b>
 <a style="color:#9966cc;" href="https://github.com/KinectToVR/Amethyst">Amethyst</a>
 <text>device plugin</text>
 </h1>
@@ -9,15 +9,14 @@ This project is licensed under the GNU GPL v3 License
 
 ## **Overview**
 This repo is a pure implementation of the `ITrackingDevice` interface,  
-providing Amethyst support for the Xbox One Kinect, using the 2.0 SDK.  
-Both the handler and the plugin itself ([available here](https://github.com/KinectToVR/plugin_Fakenect/tree/main/plugin_Fakenect)) are written in C#
+providing Amethyst support for the Xbox One Kinect, as a fake device.  
+Both the handler and the plugin itself ([available here](https://github.com/KimihikoAkayasaki/plugin_Fakenect/tree/main/plugin_Fakenect)) are written in C#
 
 ## **Downloads**
-You're going to find built plugins in [repo Releases](https://github.com/KinectToVR/plugin_Fakenect/releases/latest).
+You're going to find built plugins in [repo Releases](https://github.com/KimihikoAkayasaki/plugin_Fakenect/releases/latest).
 
 ## **Build & Deploy**
-Both build and deployment instructions [are available here](https://github.com/KinectToVR/plugin_Fakenect/blob/main/.github/workflows/build.yml).
- - Ensure you have the Kinect SDK 2.0 (2.2) installed ([from here](https://www.microsoft.com/en-us/download/details.aspx?id=44561) or nuget)
+Both build and deployment instructions [are available here](https://github.com/KimihikoAkayasaki/plugin_Fakenect/blob/main/.github/workflows/build.yml).
  - Open in Visual Studio and publish using the prepared publish profile  
    (`plugin_Fakenect` → `Publish` → `Publish` → `Open folder`)
  - Copy the published plugin to the `plugins` folder of your local Amethyst installation  

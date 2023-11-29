@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0.0",
+  "display_name": "Xbox One Kinect (Fake)",
+  "download":  "plugin_Fakenect.zip",
+  "changelog": "Fake Kinect plugin as all my Kinects have left me.",
+  "guid": "K2VRTEAM-AME2-APII-DVCE-DVCEFAKENECT"
+}
