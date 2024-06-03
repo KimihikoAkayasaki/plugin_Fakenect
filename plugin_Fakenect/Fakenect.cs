@@ -33,7 +33,7 @@ public class Fakenect : ITrackingDevice
     public bool IsInitialized { get; private set; }
     public bool IsSkeletonTracked => true;
 
-    public int DeviceStatus => IsInitialized ? 1 : 0;
+    public int DeviceStatus => IsInitialized ? 0 : 1;
 
     public ObservableCollection<TrackedJoint> TrackedJoints { get; } =
         // Prepend all supported joints to the joints list
