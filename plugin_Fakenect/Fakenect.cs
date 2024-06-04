@@ -16,7 +16,7 @@ namespace plugin_Fakenect;
 [ExportMetadata("Name", "Xbox One Kinect (Fake)")]
 [ExportMetadata("Guid", "K2VRTEAM-AME2-APII-DVCE-DVCEFAKENECT")]
 [ExportMetadata("Publisher", "公彦赤屋先")]
-[ExportMetadata("Version", "1.0.0.0")]
+[ExportMetadata("Version", "1.0.0.1")]
 [ExportMetadata("Website", "https://github.com/KimihikoAkayasaki/plugin_Fakenect")]
 public class Fakenect : ITrackingDevice
 {
